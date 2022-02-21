@@ -1,0 +1,5 @@
+services:
+  specbee_block.calculate_date_time:
+    class: Drupal\specbee_block\CalculateDateTime
+    arguments: ['@config.factory']
+    
